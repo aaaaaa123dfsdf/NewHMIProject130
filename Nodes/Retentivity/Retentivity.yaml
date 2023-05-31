@@ -10,7 +10,7 @@ Children:
     - Name: Node1
       Type: NodePointer
       DataType: NodeId
-      Value: {"IdType":2,"Id":"69b63ec1680bb66226168ed8c16521a0","Namespace":7}
+      Value: {"IdType":2,"Id":"141e7d4db0a50948b5f75a7568cb4b0d","Namespace":18}
       Children:
       - Name: Kind
         Type: PropertyType

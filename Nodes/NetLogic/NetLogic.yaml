@@ -1,2 +1,79 @@
 Name: NetLogic
 Type: NetLogicCategoryFolder
+Children:
+- Name: ClockLogic
+  Type: NetLogic
+  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+  Children:
+  - Name: Time
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "1601-01-01T00:00:00.0000000"
+  - Name: UTCTime
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "1601-01-01T00:00:00.0000000"
+- Name: RTNetlogic_Network
+  Id: g=0ac85de42c132c5b109cf1df1a6395de
+  Type: NetLogic
+  Children:
+  - Class: Method
+    Name: Read_NetworkVariables
+  - Class: Method
+    Name: ToggleDHCP_LAN
+  - Class: Method
+    Name: ToggleDHCP_WAN
+  - Class: Method
+    Name: WriteIPandMask_LAN
+  - Class: Method
+    Name: WriteDNSandGateway_LAN
+  - Class: Method
+    Name: WriteIPandMask_WAN
+  - Class: Method
+    Name: WriteDNSandGateway_WAN
+- Name: RTNetLogic_Device
+  Id: g=37fa51be2d433d33bd6cb95c7ed754c8
+  Type: NetLogic
+  Children:
+  - Class: Method
+    Name: Read_DeviceVariables
+  - Class: Method
+    Name: WriteHostName
+  - Class: Method
+    Name: ToggleProtectionMode
+- Name: RTNetLogic_Display
+  Id: g=5c47246612cd863f1ce86d00731a5bcf
+  Type: NetLogic
+  Children:
+  - Class: Method
+    Name: Read_DisplayVariables
+  - Class: Method
+    Name: Write_Brightness
+  - Class: Method
+    Name: Write_Orientation
+  - Class: Method
+    Name: Write_Scale
+- Name: RTNetLogic_RebootCmd
+  Id: g=f840b460cd8783943c3e18c52f4955d9
+  Type: NetLogic
+  Children:
+  - Class: Method
+    Name: RebootNet
+- Name: RTNetlogic_DateTime
+  Id: g=cece7fdf8ceaeef966d34bcec0ea58b3
+  Type: NetLogic
+  Children:
+  - Class: Method
+    Name: WriteDateTime
+  - Class: Method
+    Name: WriteRemoteNTP
+  - Class: Method
+    Name: WriteTimeZone
+  - Class: Method
+    Name: WriteLocalNTP_LAN
+  - Class: Method
+    Name: WriteLocalNTP_LAN_WAN
+  - Class: Method
+    Name: Read_DateTimeVariables_HMI55
+  - Class: Method
+    Name: Read_DateTimeVariables_HMI80

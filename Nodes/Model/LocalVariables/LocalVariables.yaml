@@ -1,0 +1,8 @@
+Name: LocalVariables
+Type: FolderType
+Children:
+- Name: AccordionExpansion
+  Id: g=ec68a2c009ffe1de8a63af4d2a768f65
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false

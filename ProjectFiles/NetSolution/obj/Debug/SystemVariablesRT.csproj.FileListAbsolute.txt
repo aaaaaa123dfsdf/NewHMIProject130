@@ -1,0 +1,12 @@
+C:\Vista\Apps_RC\SystemVariablesRT\ProjectFiles\NetSolution\bin\SystemVariablesRT.deps.json
+C:\Vista\Apps_RC\SystemVariablesRT\ProjectFiles\NetSolution\bin\SystemVariablesRT.dll
+C:\Vista\Apps_RC\SystemVariablesRT\ProjectFiles\NetSolution\bin\SystemVariablesRT.pdb
+C:\Vista\Apps_RC\SystemVariablesRT\ProjectFiles\NetSolution\obj\Debug\SystemVariablesRT.csproj.AssemblyReference.cache
+C:\Vista\Apps_RC\SystemVariablesRT\ProjectFiles\NetSolution\obj\Debug\SystemVariablesRT.GeneratedMSBuildEditorConfig.editorconfig
+C:\Vista\Apps_RC\SystemVariablesRT\ProjectFiles\NetSolution\obj\Debug\SystemVariablesRT.AssemblyInfoInputs.cache
+C:\Vista\Apps_RC\SystemVariablesRT\ProjectFiles\NetSolution\obj\Debug\SystemVariablesRT.AssemblyInfo.cs
+C:\Vista\Apps_RC\SystemVariablesRT\ProjectFiles\NetSolution\obj\Debug\SystemVariablesRT.csproj.CoreCompileInputs.cache
+C:\Vista\Apps_RC\SystemVariablesRT\ProjectFiles\NetSolution\obj\Debug\SystemVariablesRT.dll
+C:\Vista\Apps_RC\SystemVariablesRT\ProjectFiles\NetSolution\obj\Debug\refint\SystemVariablesRT.dll
+C:\Vista\Apps_RC\SystemVariablesRT\ProjectFiles\NetSolution\obj\Debug\SystemVariablesRT.pdb
+C:\Vista\Apps_RC\SystemVariablesRT\ProjectFiles\NetSolution\obj\Debug\ref\SystemVariablesRT.dll

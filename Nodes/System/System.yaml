@@ -1,2 +1,434 @@
 Name: System
 Type: SystemCategoryFolder
+Children:
+- Name: System1
+  Id: g=81d489d7ef2d08500f07f574aca458ac
+  Type: System
+  Children:
+  - Name: NetworkInterfaces
+    Type: BaseObjectType
+    Children:
+    - Name: LAN
+      Type: NetworkInterface
+      Children:
+      - Name: DHCPClientEnabled
+        Id: g=daf61fa9bc8df7307cf279e18efe9690
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+      - Name: IPAddress
+        Id: g=6021083f11fd345e6823521f8de18a75
+        Type: MaskedIPAddress
+        DataType: String
+        Value: ""
+        Children:
+        - Name: Mask
+          Id: g=e30e6629ef6adcab95a0cc167f1af09e
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "255.255.0.0"
+      - Name: DNS1
+        Id: g=b18fff1f5992b1d50f6eeaad85b8cea0
+        Type: BaseDataVariableType
+        DataType: String
+        Value: ""
+      - Name: DNS2
+        Id: g=0558b327cf3d8e0bc8b49e0ee22e8e90
+        Type: BaseDataVariableType
+        DataType: String
+        Value: ""
+      - Name: DefaultGateway
+        Id: g=af5d6dbe57c3aac232d1d54d036a2ea5
+        Type: BaseDataVariableType
+        DataType: String
+        Value: ""
+    - Name: WAN
+      Type: NetworkInterface
+      Children:
+      - Name: DHCPClientEnabled
+        Id: g=797d183373a7a9f00f741a011f894092
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+      - Name: IPAddress
+        Id: g=66cac87fc7630808675cacd83ad2d2b5
+        Type: MaskedIPAddress
+        DataType: String
+        Value: ""
+        Children:
+        - Name: Mask
+          Id: g=aa8c2b59f9fef46920273d77ed9f1025
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "255.255.0.0"
+      - Name: DNS1
+        Id: g=5d771204872bc8f90c1337e6d1c58811
+        Type: BaseDataVariableType
+        DataType: String
+        Value: ""
+      - Name: DNS2
+        Id: g=377f2b63d910c56d39ff97bb8616a1a2
+        Type: BaseDataVariableType
+        DataType: String
+        Value: ""
+      - Name: DefaultGateway
+        Id: g=38fbbfcd63beeb84b2e413c615c25d54
+        Type: BaseDataVariableType
+        DataType: String
+        Value: ""
+  - Name: DateAndTime
+    Type: PropertyGroup
+    Children:
+    - Name: SynchronizationMode
+      Id: g=00b1d2156e23ea3843fe9b7820f2ab3b
+      Type: BaseDataVariableType
+      DataType: TimeSynchronizationModeEnum
+      ReferenceType: HasProperty
+      Value: 0
+    - Name: RemoteNTPServer
+      Id: g=0304e3d864fed388f848c1e519797407
+      Type: BaseDataVariableType
+      DataType: String
+      ReferenceType: HasProperty
+      Value: ""
+    - Name: DateTime
+      Id: g=6b94c3a843d720ceb8e46552f66dd60a
+      Type: BaseDataVariableType
+      DataType: DateTime
+      ReferenceType: HasProperty
+      Value: "1601-01-01T00:00:00.0000000"
+    - Name: TimeZone
+      Id: g=b915d15e821e58a96b39acb3e56ce0b2
+      Type: BaseDataVariableType
+      DataType: String
+      ReferenceType: HasProperty
+      Value: ""
+    - Name: LocalNTPServerInterfaces
+      Id: g=263738c3b83c48b25cff507c378f16b5
+      Type: BaseDataVariableType
+      DataType: String
+      ReferenceType: HasProperty
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: []
+  - Name: Device
+    Type: PropertyGroup
+    Children:
+    - Name: CatalogNumber
+      Id: g=8f7e193ccfc8c538ba5ce518b1d0c082
+      Type: BaseDataVariableType
+      DataType: String
+      ReferenceType: HasProperty
+      AccessLevel: Read
+      Value: ""
+    - Name: CPUFrequency
+      Id: g=2933b20b7ef8e97c07a24d73d5a6b0f3
+      Type: BaseDataVariableType
+      DataType: UInt32
+      ReferenceType: HasProperty
+      AccessLevel: Read
+      Value: 0
+    - Name: CPUTemperature
+      Id: g=d318bee9d2f47d6d986d62aea3ea4c31
+      Type: BaseDataVariableType
+      DataType: Int32
+      ReferenceType: HasProperty
+      AccessLevel: Read
+      Value: 0
+    - Name: CPUUtilization
+      Id: g=cf699b0a4e6ed3d3b69e53c26b56076b
+      Type: BaseDataVariableType
+      DataType: UInt32
+      ReferenceType: HasProperty
+      AccessLevel: Read
+      Value: 0
+    - Name: EthernetNetworkCount
+      Id: g=3781dbe846d55258ccd75d1adc602c10
+      Type: BaseDataVariableType
+      DataType: UInt32
+      ReferenceType: HasProperty
+      AccessLevel: Read
+      Value: 0
+    - Name: EthernetPortCount
+      Id: g=2cf29c5f16a2dddaea995ae5d10278d1
+      Type: BaseDataVariableType
+      DataType: UInt32
+      ReferenceType: HasProperty
+      AccessLevel: Read
+      Value: 0
+    - Name: FirmwareDate
+      Id: g=426e3edca182057c0b4caa2ca0fd8734
+      Type: BaseDataVariableType
+      DataType: DateTime
+      ReferenceType: HasProperty
+      AccessLevel: Read
+      Value: "1601-01-01T00:00:00.0000000"
+    - Name: FirmwareVersion
+      Id: g=b959025d811f426d2aa13baf1ede69bb
+      Type: BaseDataVariableType
+      DataType: String
+      ReferenceType: HasProperty
+      AccessLevel: Read
+      Value: ""
+    - Name: HardwareProductCode
+      Id: g=138db1893628c44880ed4af908b93d76
+      Type: BaseDataVariableType
+      DataType: UInt32
+      ReferenceType: HasProperty
+      AccessLevel: Read
+      Value: 0
+    - Name: HardwareProductType
+      Id: g=7693695754fcf95cad245ce7a3dc9a25
+      Type: BaseDataVariableType
+      DataType: UInt32
+      ReferenceType: HasProperty
+      AccessLevel: Read
+      Value: 0
+    - Name: HardwareVersion
+      Id: g=15356744ebc2f49c8d101ab4d55f7c4a
+      Type: BaseDataVariableType
+      DataType: String
+      ReferenceType: HasProperty
+      AccessLevel: Read
+      Value: ""
+    - Name: HardwareSeries
+      Id: g=37f7bde2641912223ef489e7db0764ef
+      Type: BaseDataVariableType
+      DataType: String
+      ReferenceType: HasProperty
+      AccessLevel: Read
+      Value: ""
+    - Name: Hostname
+      Id: g=7d3ffc92d2ae1e3f21a29bcf5fdc98b9
+      Type: BaseDataVariableType
+      DataType: String
+      ReferenceType: HasProperty
+      Value: ""
+    - Name: LastApplicationUpdateTime
+      Id: g=9c9ace6f7b0366605b6804ed4c0fa179
+      Type: BaseDataVariableType
+      DataType: DateTime
+      ReferenceType: HasProperty
+      AccessLevel: Read
+      Value: "1601-01-01T00:00:00.0000000"
+    - Name: LastBootupTime
+      Id: g=c1bec330910ab8c31ee03a8f7b4cb4d2
+      Type: BaseDataVariableType
+      DataType: DateTime
+      ReferenceType: HasProperty
+      AccessLevel: Read
+      Value: "1601-01-01T00:00:00.0000000"
+    - Name: OSVersion
+      Id: g=56dc57d503c8a8df73f1e6efb5b673aa
+      Type: BaseDataVariableType
+      DataType: String
+      ReferenceType: HasProperty
+      AccessLevel: Read
+      Value: ""
+    - Name: ProductName
+      Id: g=d555c03dec69537da394ffafda467f9f
+      Type: BaseDataVariableType
+      DataType: String
+      ReferenceType: HasProperty
+      AccessLevel: Read
+      Value: ""
+    - Name: ProtectionModeEnabled
+      Id: g=76bf230d6ecba39c4b2e86a9f174a5f3
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ReferenceType: HasProperty
+      Value: false
+    - Name: SystemManagerVersion
+      Id: g=a6395f40ca5ff9eb75ae2ac728a73500
+      Type: BaseDataVariableType
+      DataType: String
+      ReferenceType: HasProperty
+      AccessLevel: Read
+      Value: ""
+    - Name: TotalOnTime
+      Id: g=0fcbcce676365b300bfb5ed1d17595a2
+      Type: BaseDataVariableType
+      DataType: UInt32
+      ReferenceType: HasProperty
+      AccessLevel: Read
+      Value: 0
+    - Name: FreeMemory
+      Id: g=c56e05787b5306fcb773eb07a803a41b
+      Type: BaseDataVariableType
+      DataType: UInt32
+      ReferenceType: HasProperty
+      AccessLevel: Read
+      Value: 0
+    - Name: TotalMemory
+      Id: g=9ad91c197ce3b2ddfd60a86d687879eb
+      Type: BaseDataVariableType
+      DataType: UInt32
+      ReferenceType: HasProperty
+      AccessLevel: Read
+      Value: 0
+    - Name: UsedMemory
+      Id: g=2c56b1afaf621f7b78e91518a1b00d34
+      Type: BaseDataVariableType
+      DataType: UInt32
+      ReferenceType: HasProperty
+      AccessLevel: Read
+      Value: 0
+    - Name: FreeStorage
+      Id: g=4251173ef4becbd9406cfccc203e183a
+      Type: BaseDataVariableType
+      DataType: UInt32
+      ReferenceType: HasProperty
+      AccessLevel: Read
+      Value: 0
+    - Name: TotalStorage
+      Id: g=68f9b317371f02bad8382afefbadfca1
+      Type: BaseDataVariableType
+      DataType: UInt32
+      ReferenceType: HasProperty
+      AccessLevel: Read
+      Value: 0
+    - Name: UsedStorage
+      Id: g=a804bfcdfffefa509a4acd32dad208aa
+      Type: BaseDataVariableType
+      DataType: UInt32
+      ReferenceType: HasProperty
+      AccessLevel: Read
+      Value: 0
+  - Name: Display
+    Type: PropertyGroup
+    Children:
+    - Name: Brightness
+      Id: g=d87baf7578a2dfbd2f1b496a47f162f1
+      Type: BaseDataVariableType
+      DataType: UInt32
+      ReferenceType: HasProperty
+      Value: 5
+    - Name: HorizontalResolution
+      Id: g=031029d9c1018ec44f9d6edcb6d60821
+      Type: BaseDataVariableType
+      DataType: UInt32
+      ReferenceType: HasProperty
+      AccessLevel: Read
+      Value: 0
+    - Name: VerticalResolution
+      Id: g=0ad91da9af2862a19ffba1ed64c6c48d
+      Type: BaseDataVariableType
+      DataType: UInt32
+      ReferenceType: HasProperty
+      AccessLevel: Read
+      Value: 0
+    - Name: Scale
+      Id: g=8fb0cc584a7b0e58599555e19768186a
+      Type: BaseDataVariableType
+      DataType: UInt32
+      ReferenceType: HasProperty
+      Value: 90
+    - Name: Orientation
+      Id: g=cc708f3de131ad615b6d001e197cf0b8
+      Type: BaseDataVariableType
+      DataType: DisplayOrientationEnum
+      ReferenceType: HasProperty
+      Value: 1
+  - Name: Application
+    Type: PropertyGroup
+    Children:
+    - Name: FastBlink
+      Id: g=3b01bc2f412515f6e09a34cdad3a7d76
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ReferenceType: HasProperty
+      AccessLevel: Read
+      Value: false
+    - Name: MediumBlink
+      Id: g=76908baad9ab844942dbbc1cb3b1070b
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ReferenceType: HasProperty
+      AccessLevel: Read
+      Value: false
+    - Name: SlowBlink
+      Id: g=56dcf84e008f6d51554e74080dc845d2
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ReferenceType: HasProperty
+      AccessLevel: Read
+      Value: false
+  - Class: Reference
+    Target: ns=16;i=17
+    Direction: Forward
+  - Name: RebootRequired
+    Id: g=3a00baef43df903e4ac3b928a1435021
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+    Value: false
+- Name: FTRemoteAccess1
+  Id: g=851cbace1c343df493943f541eac3654
+  Type: FTRemoteAccess
+  Children:
+  - Name: RuntimeVersion
+    Id: g=7c461de28c4c1b23e0427b831b819c0e
+    Type: BaseDataVariableType
+    DataType: String
+    AccessLevel: Read
+    Value: ""
+  - Name: ServerConnection
+    Id: g=292d94e6e4d48a85db43ad06ac00edb7
+    Type: BaseDataVariableType
+    DataType: ServerConnectionEnum
+    AccessLevel: Read
+    Value: 0
+  - Name: RegisteredToDomain
+    Id: g=b910f6601191b128ea867d89192fb760
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+    Value: false
+  - Name: AssistanceRequestMode
+    Id: g=511787747b8808c0b6a1240cb1b37bb4
+    Type: BaseDataVariableType
+    DataType: AssistanceRequestModeEnum
+    AccessLevel: Read
+    Value: 0
+  - Name: AssistanceRequested
+    Id: g=e19e0832a3604e0f74ea27dfcb825f3e
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+    Value: false
+  - Name: RemoteConnectionCount
+    Id: g=48e1701055fc027bf778f998aa656b8d
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: AnonymousId
+    Id: g=e9ecf8298566bc0fb2f96ed48f450b14
+    Type: BaseDataVariableType
+    DataType: String
+    AccessLevel: Read
+    Value: ""
+  - Name: AnonymousPassword
+    Id: g=6789e7e433911223e0dd80e95fe48bd1
+    Type: BaseDataVariableType
+    DataType: String
+    AccessLevel: Read
+    Value: ""
+  - Class: Reference
+    Target: ns=16;i=71
+    Direction: Forward
+  - Class: Reference
+    Target: ns=16;i=73
+    Direction: Forward
+  - Class: Reference
+    Target: ns=16;i=75
+    Direction: Forward
+  - Class: Reference
+    Target: ns=16;i=78
+    Direction: Forward
+  - Class: Reference
+    Target: ns=16;i=99
+    Direction: Forward
+  - Class: Reference
+    Target: ns=16;i=90
+    Direction: Forward

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module version="1">
+    <Name>SystemVariablesRTUserDefinedModule</Name>
+    <Company></Company>
+    <Version>0.0.0</Version>
+    <MinUpgradableVersion>0.0.0</MinUpgradableVersion>
+    <Binding name="Net" />
+
+    <Namespaces/>
+
+    <Dependencies>
+        <Core version="0.0.0" />
+        <Binding version="0.0.0" />
+        <Module name="FTOptix.HMIProject.Net" version="0.0.0" />
+    </Dependencies>
+
+    <Nodes/>
+
+    <TypeMappings>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="SystemVariablesRT" guid="cb6a4d71f9ed7bb8757bc07f17776ea8" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="SystemVariablesRT" guid="b56e6fc6d1a2a7fd7f8f3ba3cc78565c" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="SystemVariablesRT" guid="059d96809a5645385e0f326e36b7c98c" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="SystemVariablesRT" guid="70688c55bf8eda97e0c32243fead9125" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="SystemVariablesRT" guid="d6fe0d01fd5ab936dffbfc1a87467227" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="SystemVariablesRT" guid="782f81f8027149f7d3969fd9e432fbfd" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="SystemVariablesRT" guid="c62f28f6ff5d038a40271148b51f2a4c" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="SystemVariablesRT" guid="eeb5bae24899b3d4867b44aaa159f095" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="SystemVariablesRT" guid="8350523259f10828f8a9f760d1f49188" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="SystemVariablesRT" guid="65ce9c84bea6c7a7410e4b45d3e2a6b7" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="SystemVariablesRT" guid="47345a03c5d40acf3e59eb49c02a6f3b" />
+            </TargetType>
+        </TypeMapping>
+    </TypeMappings>
+</Module>
